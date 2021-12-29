@@ -52,7 +52,7 @@ app.post("/BMI", (req, res) => {
   res.send({
     OverWeight: weight.OverWeight,
     dataResponse: data,
-    weightCount: weight,
+    BMICategory: weight
   });
 });
 
